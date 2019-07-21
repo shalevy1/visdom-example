@@ -7,6 +7,9 @@ name = "pypi"
 visdom = "*"
 yapf = "*"
 matplotlib = "*"
+seaborn = "*"
+ipython = "*"
+plotly = "*"
 
 [dev-packages]
 
