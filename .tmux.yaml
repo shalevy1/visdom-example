@@ -1,0 +1,18 @@
+session_name: visdom-example
+start_directory: "."
+windows:
+- window_name: server
+  layout: even-horizontal
+  focus: true
+  shell_command_before:
+    - echo initial command
+  panes:
+    - shell_command: echo "started jupyter in other notebook"
+      focus: true
+    - echo "in window"
+- window_name: git
+  layout: even-horizontal
+  panes:
+    - shell_command: git repl
+      focus: true
+    - vifm .
