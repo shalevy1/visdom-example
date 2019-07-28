@@ -19,6 +19,7 @@ pipenv shell
 3. Setup up the visdom interface on Linux on the server
 
 ```
+python -m visdom.server
 ```
 
 4. Visit the user-interface at http://localhost:5000/ on the desktop
